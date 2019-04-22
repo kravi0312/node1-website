@@ -1,5 +1,5 @@
 body{
-    max-width: 650px;
+    max-width: 100%100%;
     margin: 0 auto;
     padding: 0 16px;
 }
@@ -8,12 +8,19 @@ h1 {
 }
 
 img {
-    width: 250px;
+    width: 80px;
+    position: relative;
+    top: -30px;
+
 }
 
 footer{
     background: #888888;
     margin: 0 auto;
     border-top: 1px solid #eeeeee;
+    position: relative;
+    bottom: 100%;
+    text-align: center;
+
 
 }

@@ -32,6 +32,53 @@ app.get('/about', (req, res) => {
         name: 'Ravi Kumar Ravi'
     })
 })
+app.get('/Today_News', (req, res) => {
+    res.render('Today_News', {
+        helpText: 'Page Is Under Construction.',
+        title: 'About Me',
+        name: 'Ravi Kumar Ravi'
+    })
+})
+app.get('/Popular_News', (req, res) => {
+    res.render('Popular_News', {
+        helpText: 'Page Is Under Construction.',
+        title: 'About Me',
+        name: 'Ravi Kumar Ravi'
+    })
+})
+app.get('/Videos', (req, res) => {
+    res.render('Videos', {
+        helpText: 'Page Is Under Construction.',
+        title: 'About Me',
+        name: 'Ravi Kumar Ravi'
+    })
+})
+app.get('/Science', (req, res) => {
+    res.render('Science', {
+        helpText: 'Page Is Under Construction.',
+        title: 'About Me',
+        name: 'Ravi Kumar Ravi'
+    })
+})
+app.get('/Entertainment', (req, res) => {
+    res.render('Entertainment', {
+        helpText: 'Page Is Under Construction.',
+        title: 'About Me',
+        name: 'Ravi Kumar Ravi'
+    })
+})
+app.get('/Cricket', (req, res) => {
+    res.render('Cricket', {
+        helpText: 'Page Is Under Construction.',
+        title: 'About Me',
+        name: 'Ravi Kumar Ravi'
+    })
+})
+
+
+
+
+
 
 app.get('/help', (req, res) => {
     res.render('help', {
